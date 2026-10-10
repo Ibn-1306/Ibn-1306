@@ -43,7 +43,18 @@ J'aime relever des défis techniques complexes, explorer les nouvelles technolog
 Aperçu de mes activités de développement, comprenant mes projets publics ainsi que mes dépôts privés.
 
 <!-- REPO-STATS:START -->
-Statistiques des dépôts en attente de la première synchronisation automatique.
+| Indicateur | Nombre |
+|:--|--:|
+| **Total de mes dépôts** | **8** |
+| Dépôts publics | **3** |
+| Dépôts privés | **5** |
+
+🔒 Les dépôts privés restent confidentiels : seuls leurs nombres sont affichés.
+
+*Dernière synchronisation : 2026-10-10 (UTC)*
+
+<!-- REPO-COUNTS:8,3,5 -->
+<!-- REPO-DATE:2026-10-10 -->
 <!-- REPO-STATS:END -->
 
 🔒 **Mes dépôts privés contiennent des travaux de développement confidentiels.** Leur code source et leurs informations restent protégés.
