@@ -45,15 +45,15 @@ Aperçu de mes activités de développement, comprenant mes projets publics ains
 <!-- REPO-STATS:START -->
 | Indicateur | Nombre |
 |:--|--:|
-| **Total de mes dépôts** | **8** |
+| **Total de mes dépôts** | **9** |
 | Dépôts publics | **3** |
-| Dépôts privés | **5** |
+| Dépôts privés | **6** |
 
-🔒 Seul le code source privé reste inaccessible aux visiteurs.
+🔒 Le code des dépôts privés reste confidentiel ; leurs informations de présentation sont visibles plus bas.
 
 *Dernière synchronisation : 2026-10-10 (UTC)*
 
-<!-- REPO-COUNTS:8,3,5 -->
+<!-- REPO-COUNTS:9,3,6 -->
 <!-- REPO-DATE:2026-10-10 -->
 <!-- REPO-STATS:END -->
 
@@ -67,6 +67,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | Dépôt | Description | Stack technique |
 |:--|:--|:--|
 | 🔒 `djemafatis` | Site officiel DJEMAFATIS — services, formations, boutique et déploiement CI/CD | **Langages :** `PHP`, `JavaScript`, `CSS` ; **Technologies détectées :** Non identifiées automatiquement |
+| 🔒 `isolutions-platform` | Plateforme web officielle I\-SOLUTIONS — Gestion, services et solutions numériques\. | **Langages :** Non détectés ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `jvs-ci` | Site internet JABELL VOYAGES ET SERVICES \- système de formulaire intelligent pour les réservations en ligne | **Langages :** `PHP`, `CSS`, `HTML`, `JavaScript`, `Shell` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutcloud-portal` | Portail central de gestion administrative et technique pour SOLUTCLOUD \(SaaS ERP/CRM\)\. Gestion des clients, des abonnements et contrôle à distance \(Kill Switch\) des instances\. | **Langages :** `PHP`, `Blade`, `JavaScript`, `CSS` ; **Technologies détectées :** `Laravel`, `Tailwind CSS`, `Vite` |
 | 🔒 `solutcloud-prospection` | Outil de capture de prospects terrain pour l'ERP/CRM SolutCloud\. Interface mobile\-first optimisée pour la saisie rapide, intégration native Dolibarr et pipeline CI/CD automatisé\. | **Langages :** `PHP`, `CSS`, `JavaScript`, `HTML`, `PowerShell` ; **Technologies détectées :** Non identifiées automatiquement |
@@ -82,7 +83,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 
 *Catalogue actualisé : 2026-10-10 (UTC)*
 
-<!-- REPO-CATALOG-HASH:fa8044429b4d2635 -->
+<!-- REPO-CATALOG-HASH:6b7021e36ad2fed5 -->
 <!-- REPO-CATALOG-DATE:2026-10-10 -->
 <!-- REPO-CATALOG:END -->
 
