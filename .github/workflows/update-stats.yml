@@ -3,9 +3,7 @@ name: Portfolio GitHub - Statistiques et catalogue
 
 on:
   workflow_dispatch:
-
   schedule:
-    # Synchronisation toutes les 6 heures (UTC)
     - cron: "17 */6 * * *"
 
 permissions:
@@ -18,45 +16,56 @@ concurrency:
 jobs:
   update-portfolio:
     name: Actualiser le portfolio GitHub
-
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
       - name: Recuperer le depot du profil
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Configurer Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
-      - name: Actualiser les statistiques et projets
+      - name: Synchroniser et publier le portfolio
         env:
           GITHUB_USERNAME: Ibn-1306
           PROFILE_METADATA_TOKEN: ${{ secrets.PROFILE_METADATA_TOKEN }}
+        shell: bash
         run: |
-          python scripts/update_profile.py
-
-      - name: Verifier les modifications
-        run: |
-          git diff --check
-
-      - name: Publier le README actualise
-        run: |
-          if git diff --quiet -- README.md; then
-            echo "Portfolio deja a jour."
-            exit 0
-          fi
+          set -euo pipefail
 
           git config user.name "github-actions[bot]"
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add README.md
+          for attempt in 1 2 3; do
+            echo "Tentative ${attempt}/3"
+            git fetch --no-tags origin main
+            git reset --hard FETCH_HEAD
 
-          git commit \
-            -m "docs: actualiser automatiquement le portfolio"
+            python scripts/update_profile.py
+            git diff --check
 
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+            if git diff --quiet -- README.md; then
+              echo "Portfolio deja a jour."
+              exit 0
+            fi
+
+            git add README.md
+            git commit -m "docs: actualiser automatiquement le portfolio"
+
+            if git push origin HEAD:main; then
+              echo "Publication reussie."
+              exit 0
+            fi
+
+            echo "La branche distante a change."
+            if [ "$attempt" -lt 3 ]; then
+              sleep 3
+            fi
+          done
+
+          echo "::error::Echec apres 3 tentatives."
+          exit 1
