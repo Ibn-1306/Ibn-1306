@@ -57,7 +57,37 @@ Aperçu de mes activités de développement, comprenant mes projets publics ains
 <!-- REPO-DATE:2026-10-10 -->
 <!-- REPO-STATS:END -->
 
-🔒 **Mes dépôts privés contiennent des travaux de développement confidentiels.** Leur code source et leurs informations restent protégés.
+## 📁 Catalogue automatique de mes projets
+
+<!-- REPO-CATALOG:START -->
+### 🔒 Projets privés — informations de présentation
+
+Les noms, descriptions et technologies ci-dessous sont publiés volontairement. **Le code source et les fichiers restent privés.**
+
+| Dépôt | Description | Langages et technologies |
+|:--|:--|:--|
+| 🔒 `djemafatis` | Site officiel DJEMAFATIS — services, formations, boutique et déploiement CI/CD | **Langages :** `PHP`, `JavaScript`, `CSS` ; **Topics :** À compléter dans les Topics GitHub |
+| 🔒 `jvs-ci` | Site internet JABELL VOYAGES ET SERVICES \- système de formulaire intelligent pour les réservations en ligne | **Langages :** `PHP`, `CSS`, `HTML`, `JavaScript`, `Shell` ; **Topics :** À compléter dans les Topics GitHub |
+| 🔒 `solutcloud-portal` | Portail central de gestion administrative et technique pour SOLUTCLOUD \(SaaS ERP/CRM\)\. Gestion des clients, des abonnements et contrôle à distance \(Kill Switch\) des instances\. | **Langages :** `PHP`, `Blade`, `JavaScript`, `CSS` ; **Topics :** À compléter dans les Topics GitHub |
+| 🔒 `solutcloud-prospection` | Outil de capture de prospects terrain pour l'ERP/CRM SolutCloud\. Interface mobile\-first optimisée pour la saisie rapide, intégration native Dolibarr et pipeline CI/CD automatisé\. | **Langages :** `PHP`, `CSS`, `JavaScript`, `HTML`, `PowerShell` ; **Topics :** À compléter dans les Topics GitHub |
+| 🔒 `solutcloud-web` | Plateforme SaaS SOLUTCLOUD \| Solution ERP/CRM Dolibarr pour PME\. Built with Vanilla Stack \(HTML5, CSS3, JS\) for high performance &amp; SEO\. | **Langages :** `HTML`, `CSS`, `JavaScript`, `PHP` ; **Topics :** À compléter dans les Topics GitHub |
+
+### 🌐 Projets publics
+
+| Dépôt | Description | Langages et technologies |
+|:--|:--|:--|
+| [gkn\-consultations](https://github.com/Ibn-1306/gkn-consultations) | Système centralisé de gestion des consultations clients pour GKN\-SOLUTIONS\. Expérience utilisateur fluide et automatisation de flux de données vers Google Sheets\. | **Langages :** `JavaScript`, `CSS`, `HTML` ; **Topics :** À compléter dans les Topics GitHub |
+| [Ibn\-1306](https://github.com/Ibn-1306/Ibn-1306) | Description à renseigner dans GitHub | **Langages :** `Python` ; **Topics :** À compléter dans les Topics GitHub |
+| [jolipo\-web](https://github.com/Ibn-1306/jolipo-web) | Description à renseigner dans GitHub | **Langages :** `CSS`, `HTML`, `JavaScript` ; **Topics :** À compléter dans les Topics GitHub |
+
+*Catalogue actualisé : 2026-10-10 (UTC)*
+
+<!-- REPO-CATALOG-HASH:5938e7d74ca32d4a -->
+<!-- REPO-CATALOG-DATE:2026-10-10 -->
+<!-- REPO-CATALOG:END -->
+
+
+🔒 **Le code source de mes dépôts privés reste confidentiel.** Leurs noms, descriptions et technologies sont publiés volontairement dans ce portfolio.
 
 **[Découvrir mes dépôts publics →](https://github.com/Ibn-1306?tab=repositories)**
 
