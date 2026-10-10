@@ -1,10 +1,12 @@
 
-name: Mise à jour des statistiques GitHub
+name: Portfolio GitHub - Statistiques et catalogue
 
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: "17 6 * * *"  # Tous les jours à 06 h 17 UTC
+    # Synchronisation toutes les 6 heures (UTC)
+    - cron: "17 */6 * * *"
 
 permissions:
   contents: write
@@ -14,103 +16,47 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  actualiser:
+  update-portfolio:
+    name: Actualiser le portfolio GitHub
+
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: Récupérer le dépôt du profil
+      - name: Recuperer le depot du profil
         uses: actions/checkout@v4
 
-      - name: Calculer les statistiques et mettre à jour le README
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Actualiser les statistiques et projets
         env:
-          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          GITHUB_USERNAME: Ibn-1306
+          PROFILE_METADATA_TOKEN: ${{ secrets.PROFILE_METADATA_TOKEN }}
         run: |
-          python3 - <<'PY'
-          import json
-          import os
-          import re
-          import urllib.request
-          from datetime import datetime, timezone, date
-          from pathlib import Path
+          python scripts/update_profile.py
 
-          username = "Ibn-1306"
-          token = os.environ.get("PROFILE_STATS_TOKEN", "").strip()
-          if not token:
-              raise RuntimeError("Secret PROFILE_STATS_TOKEN absent : ajoute-le dans les paramètres GitHub Actions.")
+      - name: Verifier les modifications
+        run: |
+          git diff --check
 
-          request = urllib.request.Request(
-              "https://api.github.com/user",
-              headers={
-                  "Authorization": f"Bearer {token}",
-                  "Accept": "application/vnd.github+json",
-                  "X-GitHub-Api-Version": "2022-11-28",
-                  "User-Agent": "Ibn-1306-profile-stats",
-              },
-          )
-          with urllib.request.urlopen(request, timeout=20) as response:
-              account = json.load(response)
-
-          if account.get("login", "").lower() != username.lower():
-              raise RuntimeError("Le jeton n'appartient pas au compte GitHub attendu.")
-
-          public = account.get("public_repos")
-          private = account.get("owned_private_repos")
-          if not all(isinstance(n, int) and n >= 0 for n in (public, private)):
-              raise RuntimeError("Compteurs indisponibles. Vérifie la permission read:user du jeton.")
-          total = public + private
-
-          readme = Path("README.md")
-          content = readme.read_text(encoding="utf-8")
-          pattern = re.compile(
-              r"<!-- REPO-STATS:START -->.*?<!-- REPO-STATS:END -->",
-              re.DOTALL,
-          )
-          matches = list(pattern.finditer(content))
-          if len(matches) != 1:
-              raise RuntimeError("README.md doit contenir exactement une paire de marqueurs REPO-STATS.")
-
-          previous = matches[0].group()
-          old_counts = re.search(r"<!-- REPO-COUNTS:(\d+),(\d+),(\d+) -->", previous)
-          old_date = re.search(r"<!-- REPO-DATE:(\d{4}-\d{2}-\d{2}) -->", previous)
-          today = datetime.now(timezone.utc).date()
-
-          if old_counts and old_date:
-              prior_numbers = tuple(int(n) for n in old_counts.groups())
-              previous_sync = date.fromisoformat(old_date.group(1))
-              days = (today - previous_sync).days
-              if prior_numbers == (total, public, private) and 0 <= days < 30:
-                  print("Aucun changement : README.md est déjà à jour.")
-                  raise SystemExit(0)
-
-          replacement = f"""<!-- REPO-STATS:START -->
-          | Indicateur | Nombre |
-          |:--|--:|
-          | **Total de mes dépôts** | **{total}** |
-          | Dépôts publics | **{public}** |
-          | Dépôts privés | **{private}** |
-
-          🔒 Les dépôts privés restent confidentiels : seuls leurs nombres sont affichés.
-
-          *Dernière synchronisation : {today.isoformat()} (UTC)*
-
-          <!-- REPO-COUNTS:{total},{public},{private} -->
-          <!-- REPO-DATE:{today.isoformat()} -->
-          <!-- REPO-STATS:END -->"""
-          updated = content[:matches[0].start()] + replacement + content[matches[0].end():]
-          readme.write_text(updated, encoding="utf-8")
-          print(f"Statistiques calculées : {total} dépôts ({public} publics, {private} privés).")
-          PY
-
-      - name: Enregistrer les changements si nécessaire
+      - name: Publier le README actualise
         run: |
           if git diff --quiet -- README.md; then
-            echo "Aucune modification à publier."
+            echo "Portfolio deja a jour."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add README.md
-          git commit -m "docs: actualiser les statistiques des dépôts"
+
+          git commit \
+            -m "docs: actualiser automatiquement le portfolio"
+
           git push origin "HEAD:${GITHUB_REF_NAME}"
