@@ -45,16 +45,16 @@ Aperçu de mes activités de développement, comprenant mes projets publics ains
 <!-- REPO-STATS:START -->
 | Indicateur | Nombre |
 |:--|--:|
-| **Total de mes dépôts** | **9** |
+| **Total de mes dépôts** | **10** |
 | Dépôts publics | **3** |
-| Dépôts privés | **6** |
+| Dépôts privés | **7** |
 
 🔒 Le code des dépôts privés reste confidentiel ; leurs informations de présentation sont visibles plus bas.
 
-*Dernière synchronisation : 2026-10-10 (UTC)*
+*Dernière synchronisation : 2026-10-13 (UTC)*
 
-<!-- REPO-COUNTS:9,3,6 -->
-<!-- REPO-DATE:2026-10-10 -->
+<!-- REPO-COUNTS:10,3,7 -->
+<!-- REPO-DATE:2026-10-13 -->
 <!-- REPO-STATS:END -->
 
 ## 📁 Catalogue automatique de mes projets
@@ -67,6 +67,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | Dépôt | Description | Stack technique |
 |:--|:--|:--|
 | 🔒 `djemafatis` | Site officiel DJEMAFATIS — services, formations, boutique et déploiement CI/CD | **Langages :** `PHP`, `JavaScript`, `CSS` ; **Technologies détectées :** Non identifiées automatiquement |
+| 🔒 `gkn-solutions` | Site officiel de GKN\-SOLUTIONS : voyages, visas, assurances, transport et services\. | **Langages :** `PHP`, `JavaScript`, `CSS` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `isolutions-platform` | Plateforme web officielle I\-SOLUTIONS — Gestion, services et solutions numériques\. | **Langages :** Non détectés ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `jvs-ci` | Site internet JABELL VOYAGES ET SERVICES \- système de formulaire intelligent pour les réservations en ligne | **Langages :** `PHP`, `CSS`, `HTML`, `JavaScript`, `Shell` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutcloud-portal` | Portail central de gestion administrative et technique pour SOLUTCLOUD \(SaaS ERP/CRM\)\. Gestion des clients, des abonnements et contrôle à distance \(Kill Switch\) des instances\. | **Langages :** `PHP`, `Blade`, `JavaScript`, `CSS` ; **Technologies détectées :** `Laravel`, `Tailwind CSS`, `Vite` |
@@ -81,10 +82,10 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | [Ibn\-1306](https://github.com/Ibn-1306/Ibn-1306) | Description non renseignée | **Langages :** `Python` ; **Technologies détectées :** Non identifiées automatiquement |
 | [jolipo\-web](https://github.com/Ibn-1306/jolipo-web) | Description non renseignée | **Langages :** `CSS`, `HTML`, `JavaScript` ; **Technologies détectées :** Non identifiées automatiquement |
 
-*Catalogue actualisé : 2026-10-10 (UTC)*
+*Catalogue actualisé : 2026-10-13 (UTC)*
 
-<!-- REPO-CATALOG-HASH:6b7021e36ad2fed5 -->
-<!-- REPO-CATALOG-DATE:2026-10-10 -->
+<!-- REPO-CATALOG-HASH:ba0e255e34c2e055 -->
+<!-- REPO-CATALOG-DATE:2026-10-13 -->
 <!-- REPO-CATALOG:END -->
 
 
