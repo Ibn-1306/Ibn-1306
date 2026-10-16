@@ -45,16 +45,16 @@ Aperçu de mes activités de développement, comprenant mes projets publics ains
 <!-- REPO-STATS:START -->
 | Indicateur | Nombre |
 |:--|--:|
-| **Total de mes dépôts** | **10** |
+| **Total de mes dépôts** | **11** |
 | Dépôts publics | **3** |
-| Dépôts privés | **7** |
+| Dépôts privés | **8** |
 
 🔒 Le code des dépôts privés reste confidentiel ; leurs informations de présentation sont visibles plus bas.
 
-*Dernière synchronisation : 2026-10-13 (UTC)*
+*Dernière synchronisation : 2026-10-16 (UTC)*
 
-<!-- REPO-COUNTS:10,3,7 -->
-<!-- REPO-DATE:2026-10-13 -->
+<!-- REPO-COUNTS:11,3,8 -->
+<!-- REPO-DATE:2026-10-16 -->
 <!-- REPO-STATS:END -->
 
 ## 📁 Catalogue automatique de mes projets
@@ -73,6 +73,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | 🔒 `solutcloud-portal` | Portail central de gestion administrative et technique pour SOLUTCLOUD \(SaaS ERP/CRM\)\. Gestion des clients, des abonnements et contrôle à distance \(Kill Switch\) des instances\. | **Langages :** `PHP`, `Blade`, `JavaScript`, `CSS` ; **Technologies détectées :** `Laravel`, `Tailwind CSS`, `Vite` |
 | 🔒 `solutcloud-prospection` | Outil de capture de prospects terrain pour l'ERP/CRM SolutCloud\. Interface mobile\-first optimisée pour la saisie rapide, intégration native Dolibarr et pipeline CI/CD automatisé\. | **Langages :** `PHP`, `CSS`, `JavaScript`, `HTML`, `PowerShell` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutcloud-web` | Plateforme SaaS SOLUTCLOUD \| Solution ERP/CRM Dolibarr pour PME\. Built with Vanilla Stack \(HTML5, CSS3, JS\) for high performance &amp; SEO\. | **Langages :** `HTML`, `CSS`, `JavaScript`, `PHP` ; **Technologies détectées :** Non identifiées automatiquement |
+| 🔒 `solutprint` | Boutique en ligne et espace d’administration SOLUTPRINT — Next\.js, React et MySQL\. | **Langages :** Non détectés ; **Technologies détectées :** Non identifiées automatiquement |
 
 ### 🌐 Projets publics
 
@@ -82,10 +83,10 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | [Ibn\-1306](https://github.com/Ibn-1306/Ibn-1306) | Description non renseignée | **Langages :** `Python` ; **Technologies détectées :** Non identifiées automatiquement |
 | [jolipo\-web](https://github.com/Ibn-1306/jolipo-web) | Description non renseignée | **Langages :** `CSS`, `HTML`, `JavaScript` ; **Technologies détectées :** Non identifiées automatiquement |
 
-*Catalogue actualisé : 2026-10-13 (UTC)*
+*Catalogue actualisé : 2026-10-16 (UTC)*
 
-<!-- REPO-CATALOG-HASH:ba0e255e34c2e055 -->
-<!-- REPO-CATALOG-DATE:2026-10-13 -->
+<!-- REPO-CATALOG-HASH:f9b9ad294c3f0c1e -->
+<!-- REPO-CATALOG-DATE:2026-10-16 -->
 <!-- REPO-CATALOG:END -->
 
 
