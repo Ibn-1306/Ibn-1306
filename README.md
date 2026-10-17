@@ -73,7 +73,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | 🔒 `solutcloud-portal` | Portail central de gestion administrative et technique pour SOLUTCLOUD \(SaaS ERP/CRM\)\. Gestion des clients, des abonnements et contrôle à distance \(Kill Switch\) des instances\. | **Langages :** `PHP`, `Blade`, `JavaScript`, `CSS` ; **Technologies détectées :** `Laravel`, `Tailwind CSS`, `Vite` |
 | 🔒 `solutcloud-prospection` | Outil de capture de prospects terrain pour l'ERP/CRM SolutCloud\. Interface mobile\-first optimisée pour la saisie rapide, intégration native Dolibarr et pipeline CI/CD automatisé\. | **Langages :** `PHP`, `CSS`, `JavaScript`, `HTML`, `PowerShell` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutcloud-web` | Plateforme SaaS SOLUTCLOUD \| Solution ERP/CRM Dolibarr pour PME\. Built with Vanilla Stack \(HTML5, CSS3, JS\) for high performance &amp; SEO\. | **Langages :** `HTML`, `CSS`, `JavaScript`, `PHP` ; **Technologies détectées :** Non identifiées automatiquement |
-| 🔒 `solutprint` | Boutique en ligne et espace d’administration SOLUTPRINT — Next\.js, React et MySQL\. | **Langages :** `JavaScript`, `Python` ; **Technologies détectées :** `MySQL`, `Next.js`, `React` |
+| 🔒 `solutprint_next` | Boutique en ligne et espace d’administration SOLUTPRINT — Next\.js, React et MySQL\. | **Langages :** `JavaScript`, `Python` ; **Technologies détectées :** `MySQL`, `Next.js`, `React` |
 
 ### 🌐 Projets publics
 
@@ -85,7 +85,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 
 *Catalogue actualisé : 2026-10-17 (UTC)*
 
-<!-- REPO-CATALOG-HASH:a15bf5cad0bd91f8 -->
+<!-- REPO-CATALOG-HASH:bf65d1e72c079228 -->
 <!-- REPO-CATALOG-DATE:2026-10-17 -->
 <!-- REPO-CATALOG:END -->
 
