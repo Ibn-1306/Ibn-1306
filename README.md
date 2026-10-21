@@ -45,16 +45,16 @@ Aperçu de mes activités de développement, comprenant mes projets publics ains
 <!-- REPO-STATS:START -->
 | Indicateur | Nombre |
 |:--|--:|
-| **Total de mes dépôts** | **11** |
+| **Total de mes dépôts** | **12** |
 | Dépôts publics | **3** |
-| Dépôts privés | **8** |
+| Dépôts privés | **9** |
 
 🔒 Le code des dépôts privés reste confidentiel ; leurs informations de présentation sont visibles plus bas.
 
-*Dernière synchronisation : 2026-10-16 (UTC)*
+*Dernière synchronisation : 2026-10-21 (UTC)*
 
-<!-- REPO-COUNTS:11,3,8 -->
-<!-- REPO-DATE:2026-10-16 -->
+<!-- REPO-COUNTS:12,3,9 -->
+<!-- REPO-DATE:2026-10-21 -->
 <!-- REPO-STATS:END -->
 
 ## 📁 Catalogue automatique de mes projets
@@ -73,6 +73,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | 🔒 `solutcloud-portal` | Portail central de gestion administrative et technique pour SOLUTCLOUD \(SaaS ERP/CRM\)\. Gestion des clients, des abonnements et contrôle à distance \(Kill Switch\) des instances\. | **Langages :** `PHP`, `Blade`, `JavaScript`, `CSS` ; **Technologies détectées :** `Laravel`, `Tailwind CSS`, `Vite` |
 | 🔒 `solutcloud-prospection` | Outil de capture de prospects terrain pour l'ERP/CRM SolutCloud\. Interface mobile\-first optimisée pour la saisie rapide, intégration native Dolibarr et pipeline CI/CD automatisé\. | **Langages :** `PHP`, `CSS`, `JavaScript`, `HTML`, `PowerShell` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutcloud-web` | Plateforme SaaS SOLUTCLOUD \| Solution ERP/CRM Dolibarr pour PME\. Built with Vanilla Stack \(HTML5, CSS3, JS\) for high performance &amp; SEO\. | **Langages :** `HTML`, `CSS`, `JavaScript`, `PHP` ; **Technologies détectées :** Non identifiées automatiquement |
+| 🔒 `solutprint` | SOLUTPRINT — Plateforme web professionnelle d'impression, catalogue de produits, demandes de devis et administration\. PHP, MySQL et CI/CD GitHub Actions sur LWS\. | **Langages :** `PHP`, `CSS`, `JavaScript`, `Python` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutprint_next` | Boutique en ligne et espace d’administration SOLUTPRINT — Next\.js, React et MySQL\. | **Langages :** `JavaScript`, `Python` ; **Technologies détectées :** `MySQL`, `Next.js`, `React` |
 
 ### 🌐 Projets publics
@@ -83,10 +84,10 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | [Ibn\-1306](https://github.com/Ibn-1306/Ibn-1306) | Description non renseignée | **Langages :** `Python` ; **Technologies détectées :** Non identifiées automatiquement |
 | [jolipo\-web](https://github.com/Ibn-1306/jolipo-web) | Description non renseignée | **Langages :** `CSS`, `HTML`, `JavaScript` ; **Technologies détectées :** Non identifiées automatiquement |
 
-*Catalogue actualisé : 2026-10-17 (UTC)*
+*Catalogue actualisé : 2026-10-21 (UTC)*
 
-<!-- REPO-CATALOG-HASH:bf65d1e72c079228 -->
-<!-- REPO-CATALOG-DATE:2026-10-17 -->
+<!-- REPO-CATALOG-HASH:010c3abeb248f6cb -->
+<!-- REPO-CATALOG-DATE:2026-10-21 -->
 <!-- REPO-CATALOG:END -->
 
 
