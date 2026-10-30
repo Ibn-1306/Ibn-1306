@@ -45,16 +45,16 @@ Aperçu de mes activités de développement, comprenant mes projets publics ains
 <!-- REPO-STATS:START -->
 | Indicateur | Nombre |
 |:--|--:|
-| **Total de mes dépôts** | **12** |
+| **Total de mes dépôts** | **13** |
 | Dépôts publics | **3** |
-| Dépôts privés | **9** |
+| Dépôts privés | **10** |
 
 🔒 Le code des dépôts privés reste confidentiel ; leurs informations de présentation sont visibles plus bas.
 
-*Dernière synchronisation : 2026-10-21 (UTC)*
+*Dernière synchronisation : 2026-10-30 (UTC)*
 
-<!-- REPO-COUNTS:12,3,9 -->
-<!-- REPO-DATE:2026-10-21 -->
+<!-- REPO-COUNTS:13,3,10 -->
+<!-- REPO-DATE:2026-10-30 -->
 <!-- REPO-STATS:END -->
 
 ## 📁 Catalogue automatique de mes projets
@@ -70,6 +70,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | 🔒 `gkn-solutions` | Site officiel de GKN\-SOLUTIONS : voyages, visas, assurances, transport et services\. | **Langages :** `PHP`, `JavaScript`, `CSS` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `isolutions-platform` | Plateforme web officielle I\-SOLUTIONS — Gestion, services et solutions numériques\. | **Langages :** Non détectés ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `jvs-ci` | Site internet JABELL VOYAGES ET SERVICES \- système de formulaire intelligent pour les réservations en ligne | **Langages :** `PHP`, `CSS`, `HTML`, `JavaScript`, `Shell` ; **Technologies détectées :** Non identifiées automatiquement |
+| 🔒 `ryan-travel-agency` | Site vitrine de RYAN TRAVEL AGENCY à Treichville, Abidjan : services, idées de destinations et formulaires de demandes de voyage\. | **Langages :** `HTML`, `CSS`, `JavaScript`, `PHP` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutcloud-portal` | Portail central de gestion administrative et technique pour SOLUTCLOUD \(SaaS ERP/CRM\)\. Gestion des clients, des abonnements et contrôle à distance \(Kill Switch\) des instances\. | **Langages :** `PHP`, `Blade`, `JavaScript`, `CSS` ; **Technologies détectées :** `Laravel`, `Tailwind CSS`, `Vite` |
 | 🔒 `solutcloud-prospection` | Outil de capture de prospects terrain pour l'ERP/CRM SolutCloud\. Interface mobile\-first optimisée pour la saisie rapide, intégration native Dolibarr et pipeline CI/CD automatisé\. | **Langages :** `PHP`, `CSS`, `JavaScript`, `HTML`, `PowerShell` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutcloud-web` | Plateforme SaaS SOLUTCLOUD \| Solution ERP/CRM Dolibarr pour PME\. Built with Vanilla Stack \(HTML5, CSS3, JS\) for high performance &amp; SEO\. | **Langages :** `HTML`, `CSS`, `JavaScript`, `PHP` ; **Technologies détectées :** Non identifiées automatiquement |
@@ -84,10 +85,10 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | [Ibn\-1306](https://github.com/Ibn-1306/Ibn-1306) | Description non renseignée | **Langages :** `Python` ; **Technologies détectées :** Non identifiées automatiquement |
 | [jolipo\-web](https://github.com/Ibn-1306/jolipo-web) | Description non renseignée | **Langages :** `CSS`, `HTML`, `JavaScript` ; **Technologies détectées :** Non identifiées automatiquement |
 
-*Catalogue actualisé : 2026-10-22 (UTC)*
+*Catalogue actualisé : 2026-10-30 (UTC)*
 
-<!-- REPO-CATALOG-HASH:144c1b4d66a428d7 -->
-<!-- REPO-CATALOG-DATE:2026-10-22 -->
+<!-- REPO-CATALOG-HASH:ddffbbe92f61ce73 -->
+<!-- REPO-CATALOG-DATE:2026-10-30 -->
 <!-- REPO-CATALOG:END -->
 
 
