@@ -69,7 +69,7 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | 🔒 `djemafatis` | Site officiel DJEMAFATIS — services, formations, boutique et déploiement CI/CD | **Langages :** `PHP`, `JavaScript`, `CSS` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `gkn-solutions` | Site officiel de GKN\-SOLUTIONS : voyages, visas, assurances, transport et services\. | **Langages :** `PHP`, `JavaScript`, `CSS`, `Hack` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `isolutions-platform` | Plateforme web officielle I\-SOLUTIONS — Gestion, services et solutions numériques\. | **Langages :** Non détectés ; **Technologies détectées :** Non identifiées automatiquement |
-| 🔒 `isolutions-portail` | Portail officiel I\-SOLUTIONS — services IT, offres et communication digitale\. | **Langages :** Non détectés ; **Technologies détectées :** Non identifiées automatiquement |
+| 🔒 `isolutions-portail` | Portail officiel I\-SOLUTIONS — services IT, offres et communication digitale\. | **Langages :** `CSS`, `PHP`, `JavaScript`, `Hack` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `jvs-ci` | Site internet JABELL VOYAGES ET SERVICES \- système de formulaire intelligent pour les réservations en ligne | **Langages :** `PHP`, `CSS`, `HTML`, `JavaScript`, `Shell` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `ryan-travel-agency` | Site vitrine de RYAN TRAVEL AGENCY à Treichville, Abidjan : services, idées de destinations et formulaires de demandes de voyage\. | **Langages :** `HTML`, `CSS`, `JavaScript`, `PHP` ; **Technologies détectées :** Non identifiées automatiquement |
 | 🔒 `solutcloud-portal` | Portail central de gestion administrative et technique pour SOLUTCLOUD \(SaaS ERP/CRM\)\. Gestion des clients, des abonnements et contrôle à distance \(Kill Switch\) des instances\. | **Langages :** `PHP`, `Blade`, `JavaScript`, `CSS` ; **Technologies détectées :** `Laravel`, `Tailwind CSS`, `Vite` |
@@ -86,10 +86,10 @@ Noms, descriptions et technologies publiés volontairement. **Le code source et 
 | [Ibn\-1306](https://github.com/Ibn-1306/Ibn-1306) | Description non renseignée | **Langages :** `Python` ; **Technologies détectées :** Non identifiées automatiquement |
 | [jolipo\-web](https://github.com/Ibn-1306/jolipo-web) | Description non renseignée | **Langages :** `CSS`, `HTML`, `JavaScript` ; **Technologies détectées :** Non identifiées automatiquement |
 
-*Catalogue actualisé : 2026-11-04 (UTC)*
+*Catalogue actualisé : 2026-11-05 (UTC)*
 
-<!-- REPO-CATALOG-HASH:762625ca66149182 -->
-<!-- REPO-CATALOG-DATE:2026-11-04 -->
+<!-- REPO-CATALOG-HASH:9175b097fab57011 -->
+<!-- REPO-CATALOG-DATE:2026-11-05 -->
 <!-- REPO-CATALOG:END -->
 
 
